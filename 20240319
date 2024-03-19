@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>task2-2024-03</title>
+
+<style>
+ 
+button:hover{
+    opacity: 0.5;
+}
+
+</style>
+
+</head>
+<body>
+
+  <button style="border-radius: 12px; width: 60px; height: 30px; position: absolute;">OK</button>
+      
+
+    <input type="radio" name="aa" style="margin-left: 20px; margin-top: 21px;">aaa<br>
+
+    <input type="radio" name="aa" style="margin-left: 20px;" checked>bbb<br>
+  
+    <div>
+    <input type="radio" id="huey" name="drone" value="huey" style="margin-left: 20px; margin-top: 21px;/><label for="huey">aaa</label>
+    </div>
+  
+    <div>
+    <input type="radio" id="dewey" name="drone" value="dewey" style="margin-left: 20px"checked/><label for="dewey">bbb</label>
+    </div>
+
+</body>
+
+</html>
